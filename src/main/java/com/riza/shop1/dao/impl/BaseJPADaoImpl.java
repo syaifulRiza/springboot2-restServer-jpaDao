@@ -6,7 +6,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-public abstract class BaseDaoImpl <T extends Serializable>{
+public abstract class BaseJPADaoImpl <T extends Serializable>{
 	
 	 private Class< T > clazz;
 	 

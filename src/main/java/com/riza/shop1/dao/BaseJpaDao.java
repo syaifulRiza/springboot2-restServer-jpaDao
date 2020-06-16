@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Optional;
 
-public interface BaseDao <T extends Serializable> {
+public interface BaseJpaDao <T extends Serializable> {
 
 	public T findById( long id );
 	    	

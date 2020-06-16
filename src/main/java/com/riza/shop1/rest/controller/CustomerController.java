@@ -26,6 +26,8 @@ public class CustomerController {
 	@RequestMapping("/findId")
 	@PostMapping( MediaType.APPLICATION_JSON_VALUE  )
 	public Customer findId(@RequestBody RequestRestJson requestBody){
+		System.out.println("###find id");
+		
 		return customerService.getById(requestBody.getId());
 	}
 	
